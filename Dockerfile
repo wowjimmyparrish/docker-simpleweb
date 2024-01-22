@@ -1,8 +1,9 @@
 # Specify the base image
 FROM node:alpine
 
+WORKDIR /usr/app
+
 # Install some dependencies
-WORKDIR /simpleweb/
 COPY ./ ./
 RUN npm install
 
