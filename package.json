@@ -1,5 +1,7 @@
 {
-  "dependences": {
+  "type": "module",
+
+  "dependencies": {
     "express": "*"
   },
   "scripts": {
